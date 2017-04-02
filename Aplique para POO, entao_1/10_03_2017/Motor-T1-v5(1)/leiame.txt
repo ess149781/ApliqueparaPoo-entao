@@ -1,0 +1,55 @@
+MC322 / MC336
+
+Dúvidas: [PED] rafaelkendyarakaki@gmail.com
+
+Objetivo: Este arquivo contém instruções de como montar seu projeto no Eclipse para o Trabalho 1,
+utilizando-se do código fornecido, exemplos e documentação.
+
+Instruções:
+
+1) Crie um novo projeto no Eclipse.
+2) Crie uma nova classe neste projeto chamada "Main", no pacote default (não especificar nada no campo 'package').
+3) Copie o conteúdo do arquivo disponibilizado src/Main.java para ser o conteúdo da classe "Main" recém criada.
+4) Neste momento irão aparecer diversos erros e warnings no Eclipse.
+5) Clique com botão direito no seu projeto, selecione as propriedades, vá em "Java Build Path -> Add External Class Folder", e adicione a pasta "bin" disponibilizada neste pacote.
+6) Clique na setinha ao lado esquerdo do item que foi criado (logo abaixo da frase "JARs and class folders on the build path").
+7) Escolha a opção Javadoc location, navegue até a pasta "doc" disponibilizada neste pacote e selecione-a.
+8) Dê OK e feche as janelas.
+
+Neste momento o Eclipse já deve ter reconhecido o código e a documentação e já deve ser possível compilar e testar o exemplo disponibilizado.
+
+Qualquer dúvida enviar por e-mail.
+
+------
+
+Atualizações da Versão 2:
+
+1) Separado as duas rotinas da Main que executam partidas em dois métodos.
+2) Aumentada a precisão na medição de tempo de execução do método processarTurno().
+3) Adicionado o modo determinístico na classe Baralho, que torna o embaralhamento determinístico, para facilitar a depuração.
+4) Melhorada a mensagem de exceção quando utiliza-se lacaio inválido em Jogada de ataque, para facilitar a depuração.
+
+------
+
+Atualizações da Versão 3:
+
+1) JogadorAleatorio agora é mudo para facilitar a depuração.
+2) Corrigido um bug quando tentava-se jogar cartas de Magia como Lacaios (jogada inválida).
+3) Adicionada uma mensagem para jogada de magias de área.
+
+
+------
+
+Atualizações da Versão 4:
+
+1) *IMPORTANTE*: Nova classe JogadorAleatorio.
+2) Algumas mudanças cosméticas na classe Motor.
+
+------
+
+Atualizações da Versão 5:
+
+1) Corrigido um bug quando tentava-se utilizar mais de um poder heróico por turno (jogada inválida).
+2) Corrigido um bug quando tentava-se atacar com um lacaio mais de uma vez por turno (jogada inválida).
+3) Melhorada algumas mensagens de erro para facilitar depuração.
+
