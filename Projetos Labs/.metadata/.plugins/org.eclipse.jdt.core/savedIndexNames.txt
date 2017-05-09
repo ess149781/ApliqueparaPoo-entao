@@ -1,0 +1,4 @@
+INDEX VERSION 1.129+C:\Users\essantos\Downloads\ApliqueparaPoo-entao\Projetos Labs\.metadata\.plugins\org.eclipse.jdt.core
+2411261989.index
+2328269416.index
+380739999.index
